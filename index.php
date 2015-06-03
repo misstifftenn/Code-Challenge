@@ -21,7 +21,7 @@ foreach ($text as $t)  {
 }
 
 //display results
-echo 'Total lines in file: ' . count($text) . '<br />';
-echo "Total words in file: " . $wordCount . "<br />" ; 
-echo "Total letter 'R's (including lowercase 'r'): " . $rCount; 
+echo "Total lines in file: " . count($text) . "<br />";
+echo "Total words in file: $wordCount <br />"; 
+echo "Total letter 'R's (including lowercase 'r'): $rCount"; 
 ?>
